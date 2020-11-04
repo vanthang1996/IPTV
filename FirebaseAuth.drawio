@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T12:37:35.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="gI0ezhMKzNEkIGeogeaV" version="13.8.9-1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T12:40:47.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="-8LM5j9pj_w0TCsVmGag" version="13.8.9-1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -134,7 +134,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ozkosLKGaaoJHy-yNGnJ-95" value="updatePassword(pwd)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" target="ozkosLKGaaoJHy-yNGnJ-88" edge="1">
+        <mxCell id="ozkosLKGaaoJHy-yNGnJ-95" value="updatePassword(newPwd)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" target="ozkosLKGaaoJHy-yNGnJ-88" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="175" y="999" as="sourcePoint" />
             <mxPoint x="337" y="999" as="targetPoint" />
@@ -195,6 +195,22 @@
               <mxPoint x="270.5" y="1250" />
               <mxPoint x="270.5" y="1280" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kkn3Ly9YWz7IPAgtcKhY-26" value="reauthenticateWithCredential ({oldPwd})" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="930" as="sourcePoint" />
+            <mxPoint x="445" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kkn3Ly9YWz7IPAgtcKhY-27" value="UserCredential" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="960" as="sourcePoint" />
+            <mxPoint x="175" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="282" y="960" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
