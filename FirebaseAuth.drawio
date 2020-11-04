@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T08:53:03.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="A5mY-Nd4Vhts_TZmVX5c" version="13.8.9-1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T08:56:30.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="RyJTZJSKn85zinHT3ZXs" version="13.8.9-1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -283,7 +283,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ozkosLKGaaoJHy-yNGnJ-97" value="HTTP Methods PUT /user&lt;br&gt;request.headers[&#39;Authorization&#39;][&#39;Bearer&lt;span style=&quot;background-color: transparent ; font-family: inherit ; font-style: inherit ; font-weight: inherit ; font-size: 13px ; text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;&#39;+ idToken]" style="endArrow=classic;html=1;" parent="1" edge="1">
+        <mxCell id="ozkosLKGaaoJHy-yNGnJ-97" value="HTTP Methods POST /logout-all&lt;br&gt;request.headers[&#39;Authorization&#39;][&#39;Bearer&lt;span style=&quot;background-color: transparent ; font-family: inherit ; font-style: inherit ; font-weight: inherit ; font-size: 13px ; text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;&#39;+ idToken]" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry x="-0.0141" y="18" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="175" y="1050.72" as="sourcePoint" />
             <mxPoint x="525" y="1051" as="targetPoint" />
